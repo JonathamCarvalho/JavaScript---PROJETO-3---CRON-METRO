@@ -1,5 +1,6 @@
 const stopButton = document.querySelector(".stop-button")
 const startButton = document.querySelector(".start-button")
+const resetButton = document.querySelector(".reset-button")
 
 let number = 0
 let cron
@@ -16,5 +17,14 @@ function buttonStop(){
     clearInterval(cron)
 }
 
+function buttonReset(){
+    clearInterval(cron)
+    number = 0
+    h1.innerHTML = number
+}
+
+
+
 startButton.addEventListener("click", buttonStart)
 stopButton.addEventListener("click", buttonStop)
+resetButton.addEventListener("click", buttonReset)
