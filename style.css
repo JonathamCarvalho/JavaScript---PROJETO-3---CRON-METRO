@@ -616,7 +616,32 @@ button:active{
     
     }
 }
-  
+
+@media screen and (max-width:298px){
+
+    h1 {
+        bottom: 307px;
+        font-size: 31px;
+    }
+
+    .container-button{
+        bottom: 94px;
+    }
+
+    button{
+        width: 55px;
+        height: 27px;
+        font-size: 12px;
+        padding: 3px 17px;
+    }
+
+    .reset-button{
+        bottom: 59px;
+        padding: 6px 12px;
+    }
+}
+   
+
 @media screen and (max-width:283px){
 
     h1 {
