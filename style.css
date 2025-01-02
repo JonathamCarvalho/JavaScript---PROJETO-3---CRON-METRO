@@ -561,28 +561,69 @@ button:active{
 
 }
 
-@media screen and (max-width:375px){
-       
-        h1{ 
+@media screen and (max-width:376px) {
+
+    .relogio-img{
+        width: 100%;
+    }
+
+    h1{ 
         font-size: 36px;
         bottom: 378px;
     }
-    
-        button{
+
+    .container-button{
+        bottom: 379px; 
+    }
+
+    button{
         width: 66px;
         height: 35px;
         font-size: 12px;
-        }
-
-        .container-button{
-            bottom: 262px; 
-        }
+    }
     
-        .reset-button{
-            bottom: 219px;
-            padding: 9px 16px;
-        
-        }
+    .reset-button{
+        bottom: 338px; 
+        padding: 9px 16px;
+    }
+
+}
+
+@media screen and (max-width:375px){
+       
+    h1{ 
+    font-size: 36px;
+    bottom: 378px;
+}
+
+    button{
+    width: 66px;
+    height: 35px;
+    font-size: 12px;
+    }
+
+    .container-button{
+        bottom: 262px; 
+    }
+
+    .reset-button{
+        bottom: 219px;
+        padding: 9px 16px;
+    
+    }
+}
+
+@media screen and (max-width:372px){
+       
+    .container-button{
+        bottom: 383px;    
+    }
+
+    .reset-button{
+        bottom: 341px;
+        padding: 9px 16px;
+    
+    }
 }
 
 @media screen and (max-width:360px){
