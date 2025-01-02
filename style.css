@@ -100,6 +100,35 @@ button:active{
 
 }
 
+@media screen and (max-width:1080px){
+
+    .relogio-img{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 133px;
+        bottom: 980px;
+    }
+
+    .container-button{
+        top: 969px;
+    }
+
+    button{
+        font-size: 45px;
+        width: 232px;
+        height: 83px;
+    }
+
+    .reset-button{
+        top: 1068px;
+        padding: 10px 55px;
+    }
+
+
+}
+
 @media screen and (max-width:1024px){
 
     .relogio-img{
@@ -128,6 +157,7 @@ button:active{
 
 
 }
+
 
 @media screen and (max-width:912px){
 
@@ -586,5 +616,28 @@ button:active{
     
     }
 }
-        
+  
+@media screen and (max-width:283px){
+
+    h1 {
+        bottom: 307px;
+        font-size: 31px;
+    }
+
+    .container-button{
+        bottom: 290px;
+    }
+
+    button{
+        width: 60px;
+        height: 30px;
+        font-size: 12px;
+        padding: 7px 20px;
+    }
+
+    .reset-button{
+        bottom: 250px;
+        padding: 6px 15px;
+    }
+}
     
