@@ -444,46 +444,6 @@ button:active{
     } 
 }
 
-@media screen and (max-width:377px) {
-
-    .relogio-img{
-        width: 100%;
-    }
-
-    h1{ 
-        font-size: 36px;
-        bottom: 378px;
-    }
-
-    .container-button{
-        bottom: 379px; 
-    }
-
-    button{
-        width: 66px;
-        height: 35px;
-        font-size: 12px;
-    }
-    
-    .reset-button{
-        bottom: 338px; 
-        padding: 9px 16px;
-    }
-
-}
-
-@media screen and (max-width:375){
-    .container-button{
-        bottom: 262px; 
-    }
-
-    .reset-button{
-        bottom: 219px;
-        padding: 9px 16px;
-    
-    }
-}
-
 @media screen and (max-width:471px){
 
     h1{
@@ -654,24 +614,63 @@ button:active{
     }
 }
 
-@media screen and (max-width:390px){
+@media screen and (max-width:393px){
 
         .container-button{
-            bottom: 429px; 
+            bottom: 367px; 
         }
     
         .reset-button {
-            bottom: 385px;
+            bottom: 320px;
         }
 
 }
 
+@media screen and (max-width:390px){
+       
+    .container-button{
+        bottom: 435px; 
+    }
+
+    .reset-button {
+        bottom: 394px;
+    }
+}
+
+
+@media screen and (max-width:389px){
+
+    .container-button{
+        bottom: 363px; 
+    }
+
+    .reset-button{
+        bottom: 320px; 
+    }
+    
+}
+
 @media screen and (max-width:377px) {
+
+    .relogio-img{
+        width: 100%;
+    }
+
+    h1{ 
+        font-size: 36px;
+        bottom: 378px;
+    }
 
     .container-button{
         bottom: 379px; 
     }
- 
+
+    button{
+        width: 66px;
+        height: 35px;
+        font-size: 12px;
+    }
+    
     .reset-button{
         bottom: 338px; 
         padding: 9px 16px;
@@ -679,17 +678,16 @@ button:active{
 
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:375px) {
 
     .container-button{
-        bottom: 385px; 
+        bottom: 271px; 
+    }  
+    .reset-button{
+        bottom: 226px; 
+        padding: 9px 16px;
     }
 
-    .reset-button{
-        bottom: 341px;
-        padding: 9px 16px;
-    
-    }
 }
 
 @media screen and (max-width:373px){
@@ -736,6 +734,83 @@ button:active{
     
     }
 }
+
+@media screen and (max-width:342px){
+
+    h1 {
+        bottom: 352px;
+    }
+
+    .container-button{
+        bottom: 418px;
+    }
+
+    .reset-button{
+        bottom: 377px;
+    
+    }
+}
+
+@media screen and (max-width:333px){
+
+    .container-button{
+        bottom: 428px;
+    }
+
+    .reset-button{
+        bottom: 385px;
+    
+    }
+}
+
+@media screen and (max-width:321px){
+
+    h1 {
+        bottom: 341px;
+    }
+
+    .container-button{
+        bottom: 432px;
+    }
+
+    .reset-button{
+        bottom: 390px;
+    
+    }
+}
+
+@media screen and (max-width:323px){
+
+    h1 {
+        bottom: 341px;
+    }
+
+    .container-button{
+        bottom: 438px;
+    }
+
+    .reset-button{
+        bottom: 394px;
+    
+    }
+}
+
+@media screen and (max-width:320px){
+
+    h1 {
+        bottom: 341px;
+    }
+
+    .container-button{
+        bottom: 449px;
+    }
+
+    .reset-button{
+        bottom: 406px;
+    
+    }
+}
+
 
 @media screen and (max-width:298px){
 
